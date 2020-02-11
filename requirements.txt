@@ -1,0 +1,5 @@
+keras
+numpy
+pandas
+tqdm
+keras_self_attention
