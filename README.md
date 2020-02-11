@@ -42,6 +42,7 @@ To test the models, run the question_response.ipynb and get responses.
 
 ### Result
 The three models' results are presented in answer.csv. 
+Personally speaking, the result of naive seq2seq is better than the other two models. Without Seq2seq, concatenated model has a poor result. In additional, Seq2seq With attention layer might focus too much on some words which decrease the diversity of responses.
 
 License
 ----
