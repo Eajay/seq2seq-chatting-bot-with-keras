@@ -1,15 +1,15 @@
-# seq2seq chatting bot with keras
+# Seq2seq chatting bot with keras
 The program implements models by Python 3.7 with Keras that using Tensorflow-gpu backend. All files are writen in Jupyter format. The purpose of this projects lies in comparing the results of three different models.
   - Concatenate model 
   - naive seq2seq model 
   - seq2seq with attention layer model
  
-### required dataset
-##### training data
+### Required dataset
+##### Training data
 All models use cornell movie dialogs corpus as training data, which contains more than 100,000 converstaions. The training data is available on: \
 https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html
 
-##### embedding file
+##### Embedding file
 The program selects Glove with 100 dimension as default embedding matrix. The file is available on:\
 https://nlp.stanford.edu/projects/glove/
 
@@ -17,7 +17,7 @@ https://nlp.stanford.edu/projects/glove/
 Since BLEU score is not accurate when it comes to dialog generation, I design 100 sentences to test the models' performances which requires people to judge whether the response sentences are good enough.
 The question is available in question.csv.
 
-### models pictures
+### Models pictures
 Concatenate:\
 ![alt text](https://github.com/Eajay/seq2seq-chatting-bot-with-keras/blob/master/picutures/concate.png)
 
