@@ -39,7 +39,8 @@ $ pip3 install -r requirements.txt
 Before training the models, you need to run preprocess.ipynb file to get pickle files that contain preprocessed training data.
 Then select one of the model files to run and you should get a saved model file named ending with .h5.
 To test the models, run the question_response.ipynb and get responses.
-### result
+
+### Result
 The three models' results are presented in answer.csv. 
 
 License
